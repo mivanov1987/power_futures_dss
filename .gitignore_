@@ -1,0 +1,35 @@
+energy_derivatives_risk/
+00_environment_setup/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environments
+.env
+.venv/
+venv/
+conda-meta/
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs
+outputs/figures/*
+outputs/tables/*
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+
+# Local data
+data/*.csv
+data/*.parquet
+
+# OS
+.DS_Store
+Thumbs.db

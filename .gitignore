@@ -1,0 +1,58 @@
+# Project-specific local folders (preserved from the original file)
+energy_derivatives_risk/
+00_environment_setup/
+
+# Python caches and packaging
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python / Conda environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+power_futures_env/
+.conda/
+conda-meta/
+
+# IDEs (retain shareable VS Code settings)
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated research data (track directory placeholder)
+data/*.csv
+data/*.parquet
+!data/.gitkeep
+
+# Generated outputs (track directory placeholders)
+outputs/figures/*
+outputs/tables/*
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Secrets / private keys
+*.pem
+*.key
+
+# Operating systems
+.DS_Store
+Thumbs.db
+desktop.ini
