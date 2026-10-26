@@ -160,7 +160,7 @@ environment are recorded in `requirements.txt`.
 Clone the repository:
 
 ```powershell
-git clone https://github.com/gburlakov/german_power_futures_dss.git
+git clone https://github.com/mivanov1987/power_futures_dss
 cd german_power_futures_dss
 ```
 
@@ -737,7 +737,7 @@ against real market data.
 
 GitHub:
 
-https://github.com/gburlakov/german_power_futures_dss
+https://github.com/mivanov1987/power_futures_dss
 
 ---
 
